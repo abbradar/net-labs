@@ -7,7 +7,7 @@ PDF=report.pdf
 # Используемые программы
 PDFLATEX = pdflatex -interaction=nonstopmode
 
-D2T=utils/dot2tex -f pgf  --crop --prog=neato
+D2T=utils/dot2tex -f tikz  --crop --prog=neato
 # neato
 
 L2D=utils/lab2dot
