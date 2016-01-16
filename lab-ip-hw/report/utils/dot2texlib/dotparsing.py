@@ -26,7 +26,7 @@ import pyparsing
 from pyparsing import  (Literal, CaselessLiteral, Word, Upcase, OneOrMore, ZeroOrMore,
     Forward, NotAny, delimitedList, oneOf, Group, Optional, Combine, alphas, nums,
     restOfLine, cStyleComment, nums, alphanums, printables, empty, quotedString,
-    ParseException, ParseResults, CharsNotIn, _noncomma, dblQuotedString, QuotedString, ParserElement,
+    ParseException, ParseResults, CharsNotIn, dblQuotedString, QuotedString, ParserElement,
     Suppress,Regex,removeQuotes)
 
 dot_keywords = ['graph', 'subgraph', 'digraph', 'node', 'edge', 'strict']
